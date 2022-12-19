@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(113,168,255);
+    background: linear-gradient(90deg, rgba(113,168,255,1) 9%, rgba(118,39,226,1) 32%, rgba(170,125,217,1) 59%, rgba(101,194,188,1) 96%);  
+}
+h1{
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-align: center;
+    min-height: 95.2px;
+    width: 100%;
+    color: white;
+    margin-bottom: 30px;
+
+    
+
+}
+main{
+    font-size: 1rem;
+    height: 1855px;
+    width: 100%;
+}
+section{
+    width: 80%;
+    background-color:rgba(255, 255, 255 , 0.3) ;
+    border-radius: 8px;
+    height:auto;
+    min-height: 245px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0,1) 0px 10px 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+
+
+p{
+    font-size: 16px;
+    font-weight: 300;
+    text-align: justify;
+    text-indent: 16px;
+    height: 110.4px;
+    color: white;
+    
+    /* width: 580.312px; */
+}
+
+button{
+    display:block;
+    text-align: center;
+    background-color: #FF7F50;
+    height: 36px;
+    width: 100px;
+    margin: 10px 10px 0 0;
+    float: right;
+    border-radius: 7px;
+    border: none;
+    
+}
+button:hover{
+    cursor: pointer;
+    width: 150px ;
+    height: 60px;
+}
+h3{
+    color: #FF7F50;
+    font-size: 2rem;
+    /* height: 42px; */
+    height: auto;
+
+    /* min-height:84px; */
+}
+a{
+    font-size: 13px;
+    text-align: center;
+    height: auto;
+    width: auto;
+    text-decoration: none;
+}
+
+img{
+    padding: 5px;
+    height: 225px;
+    width: 30%;
+    float: left;    
+}
+
+img:hover{
+    height: 275px;
+    width: 416px;
+    padding: 5px;
+    padding: auto;
+    
+}
